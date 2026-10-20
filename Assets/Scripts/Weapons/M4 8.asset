@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aed27a685d3ef488dd9d7d18db3140, type: 3}
+  m_Name: M4 8
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponId: weapon_4
+  weaponName: M4 8
+  icon: {fileID: 21300000, guid: 68fa73f2e35ae4c4f9fa06f6d8d2ed8c, type: 3}
+  weaponModelPrefab: {fileID: 6377773758332101087, guid: fbbac1d3864a42f48baa829103bde497, type: 3}
+  unlockedByDefault: 0
+  buyCost: 450
+  animatorOverride: {fileID: 22100000, guid: 0a18421dc3792214092f09e1695e1fac, type: 2}
+  fireMode: 1
+  shootType: 0
+  damage: 9
+  fireRate: 9.5
+  range: 85
+  baseDamageUpgradeCost: 90
+  damageUpgradeCostStep: 80
+  maxDamageLevel: 5
+  damagePerLevel: 2
+  baseMagazineUpgradeCost: 90
+  magazineUpgradeCostStep: 80
+  maxMagazineLevel: 5
+  magazinePerLevel: 5
+  baseFireRateUpgradeCost: 100
+  fireRateUpgradeCostStep: 90
+  maxFireRateLevel: 5
+  fireRatePerLevel: 0.6
+  baseReloadUpgradeCost: 90
+  reloadUpgradeCostStep: 80
+  maxReloadLevel: 5
+  reloadReductionPerLevel: 0.12
+  minReloadTime: 1
+  pellets: 1
+  spreadAngle: 0
+  magazineSize: 30
+  reloadTime: 1.8
+  tracerPrefab: {fileID: 4205123847585212397, guid: 6fa94fcea20732249b992d49b4d4d6d5, type: 3}
+  tracerLifeTime: 0.04
+  muzzleFlashPrefab: {fileID: 0}
+  shootClip: {fileID: 0}
+  reloadClip: {fileID: 0}
+  emptyClip: {fileID: 0}

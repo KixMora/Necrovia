@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b7c1035e4c81043a8c39ca7b21c37e, type: 3}
+  m_Name: Mission_001
+  m_EditorClassIdentifier: Assembly-CSharp::MissionData
+  missionId: mission_001
+  missionTitle: "\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435 - \u041E\u0447\u0438\u0441\u0442\u043A\u0430
+    \u0440\u0430\u0439\u043E\u043D\u0430"
+  description: "\u041F\u0435\u0440\u0432\u044B\u0435 \u0437\u0430\u0440\u0430\u0436\u0451\u043D\u043D\u044B\u0435
+    \u0437\u0430\u043C\u0435\u0447\u0435\u043D\u044B \u0432 \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0435.\r\n\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439
+    \u043E\u0440\u0443\u0436\u0438\u0435 \u0438 \u0443\u043D\u0438\u0447\u0442\u043E\u0436\u044C
+    \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0443\u044E \u0433\u0440\u0443\u043F\u043F\u0443
+    \u0437\u043E\u043C\u0431\u0438.\r\n\u042D\u0442\u043E \u0442\u043E\u043B\u044C\u043A\u043E
+    \u043D\u0430\u0447\u0430\u043B\u043E."
+  missionTitleRu: "\u041E\u0431\u0443\u0447\u0435\u043D\u0438\u0435 - \u041E\u0447\u0438\u0441\u0442\u043A\u0430
+    \u0440\u0430\u0439\u043E\u043D\u0430"
+  descriptionRu: "\u041F\u0435\u0440\u0432\u044B\u0435 \u0437\u0430\u0440\u0430\u0436\u0451\u043D\u043D\u044B\u0435
+    \u0437\u0430\u043C\u0435\u0447\u0435\u043D\u044B \u0432 \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0435.\r\n\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439
+    \u043E\u0440\u0443\u0436\u0438\u0435 \u0438 \u0443\u043D\u0438\u0447\u0442\u043E\u0436\u044C
+    \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0443\u044E \u0433\u0440\u0443\u043F\u043F\u0443
+    \u0437\u043E\u043C\u0431\u0438.\r\n\u042D\u0442\u043E \u0442\u043E\u043B\u044C\u043A\u043E
+    \u043D\u0430\u0447\u0430\u043B\u043E."
+  missionTitleEn: Training - Neighborhood Cleanup
+  descriptionEn: 'The first infected have been spotted in the area.
+
+    Use your
+    weapons and eliminate the small group of zombies.
+
+    This is just the beginning.'
+  sceneName: Mission_001
+  mapPosition: {x: -471, y: 236}
+  icon: {fileID: 0}
+  unlockedByDefault: 1
+  requiredMission: {fileID: 0}
+  completionMode: 0
+  objectives:
+  - type: 0
+    targetValue: 3

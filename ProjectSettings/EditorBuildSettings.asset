@@ -6,8 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Bootstrap.unity
+    guid: c109c9b57c48e0344a5e2619f20c44d2
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2a02be9f59ba87e4190edb027cc441dd
+  - enabled: 1
+    path: Assets/Scenes/MissionSelect/MissionSelect.unity
+    guid: 19cedcff8f753ee4485a26cf0f35045b
+  - enabled: 1
+    path: Assets/Scenes/GameScene/Mission_001.unity
+    guid: 6b050ef1041e00c499b5110c9659f40b
+  - enabled: 1
+    path: Assets/Scenes/GameScene/GameScene.unity
+    guid: f5282264be1470b4ba608b096f46c229
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 3006e1d7e6ff49b43b598014abf859ae, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: a7bf8c64debe5b540ab7d3a9fbf9062d, type: 2}
   m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aed27a685d3ef488dd9d7d18db3140, type: 3}
+  m_Name: AK74
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponId: weapon_2
+  weaponName: AK74
+  icon: {fileID: 21300000, guid: 000dc4f7c0c97a64aade62747a4f4266, type: 3}
+  weaponModelPrefab: {fileID: 1736624881605738973, guid: dd3367fa5017ac44aa66339b40f50080, type: 3}
+  unlockedByDefault: 0
+  buyCost: 350
+  animatorOverride: {fileID: 22100000, guid: 0a18421dc3792214092f09e1695e1fac, type: 2}
+  fireMode: 1
+  shootType: 0
+  damage: 8
+  fireRate: 10
+  range: 90
+  baseDamageUpgradeCost: 50
+  damageUpgradeCostStep: 50
+  maxDamageLevel: 5
+  damagePerLevel: 3
+  baseMagazineUpgradeCost: 60
+  magazineUpgradeCostStep: 60
+  maxMagazineLevel: 5
+  magazinePerLevel: 3
+  baseFireRateUpgradeCost: 70
+  fireRateUpgradeCostStep: 70
+  maxFireRateLevel: 5
+  fireRatePerLevel: 0.5
+  baseReloadUpgradeCost: 70
+  reloadUpgradeCostStep: 70
+  maxReloadLevel: 5
+  reloadReductionPerLevel: 0.15
+  minReloadTime: 0.5
+  pellets: 7
+  spreadAngle: 8
+  magazineSize: 30
+  reloadTime: 4
+  tracerPrefab: {fileID: 4205123847585212397, guid: 6fa94fcea20732249b992d49b4d4d6d5, type: 3}
+  tracerLifeTime: 0.035
+  muzzleFlashPrefab: {fileID: 0}
+  shootClip: {fileID: 8300000, guid: 77dceae51af4f694396185196f883781, type: 3}
+  reloadClip: {fileID: 8300000, guid: 19dd61c405d91dd4296e29fd6a5a67b3, type: 3}
+  emptyClip: {fileID: 0}

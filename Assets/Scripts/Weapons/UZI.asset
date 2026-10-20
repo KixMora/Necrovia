@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aed27a685d3ef488dd9d7d18db3140, type: 3}
+  m_Name: UZI
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponId: weapon_7
+  weaponName: UZI
+  icon: {fileID: 21300000, guid: 2fe4a0a5b9ea1e3499d763663b52a892, type: 3}
+  weaponModelPrefab: {fileID: 1718729223442755495, guid: 39c14c5a7de1ef148a72fe060d888c9f, type: 3}
+  unlockedByDefault: 0
+  buyCost: 250
+  animatorOverride: {fileID: 22100000, guid: d2d0865b25b661142a9e6ad0dc696031, type: 2}
+  fireMode: 1
+  shootType: 0
+  damage: 5
+  fireRate: 14
+  range: 55
+  baseDamageUpgradeCost: 60
+  damageUpgradeCostStep: 55
+  maxDamageLevel: 5
+  damagePerLevel: 1
+  baseMagazineUpgradeCost: 70
+  magazineUpgradeCostStep: 60
+  maxMagazineLevel: 5
+  magazinePerLevel: 4
+  baseFireRateUpgradeCost: 80
+  fireRateUpgradeCostStep: 70
+  maxFireRateLevel: 5
+  fireRatePerLevel: 0.8
+  baseReloadUpgradeCost: 70
+  reloadUpgradeCostStep: 60
+  maxReloadLevel: 5
+  reloadReductionPerLevel: 0.1
+  minReloadTime: 0.75
+  pellets: 1
+  spreadAngle: 0
+  magazineSize: 32
+  reloadTime: 1.4
+  tracerPrefab: {fileID: 4205123847585212397, guid: 6fa94fcea20732249b992d49b4d4d6d5, type: 3}
+  tracerLifeTime: 0.03
+  muzzleFlashPrefab: {fileID: 0}
+  shootClip: {fileID: 0}
+  reloadClip: {fileID: 0}
+  emptyClip: {fileID: 0}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aed27a685d3ef488dd9d7d18db3140, type: 3}
+  m_Name: M1911
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponId: weapon_1
+  weaponName: M1911
+  icon: {fileID: 21300000, guid: 52c701c277401f34eaca3eb436cbb3fd, type: 3}
+  weaponModelPrefab: {fileID: 4483662618327101347, guid: a2e25e9af873cad4597fb4723bc6246e, type: 3}
+  unlockedByDefault: 1
+  buyCost: 0
+  animatorOverride: {fileID: 22100000, guid: d2d0865b25b661142a9e6ad0dc696031, type: 2}
+  fireMode: 0
+  shootType: 0
+  damage: 12
+  fireRate: 3
+  range: 80
+  baseDamageUpgradeCost: 50
+  damageUpgradeCostStep: 50
+  maxDamageLevel: 5
+  damagePerLevel: 3
+  baseMagazineUpgradeCost: 60
+  magazineUpgradeCostStep: 60
+  maxMagazineLevel: 5
+  magazinePerLevel: 3
+  baseFireRateUpgradeCost: 70
+  fireRateUpgradeCostStep: 70
+  maxFireRateLevel: 5
+  fireRatePerLevel: 0.5
+  baseReloadUpgradeCost: 70
+  reloadUpgradeCostStep: 70
+  maxReloadLevel: 5
+  reloadReductionPerLevel: 0.15
+  minReloadTime: 0.5
+  pellets: 7
+  spreadAngle: 8
+  magazineSize: 12
+  reloadTime: 1.2
+  tracerPrefab: {fileID: 4205123847585212397, guid: 6fa94fcea20732249b992d49b4d4d6d5, type: 3}
+  tracerLifeTime: 0.04
+  muzzleFlashPrefab: {fileID: 0}
+  shootClip: {fileID: 8300000, guid: 026367831f758a045b993382d6fe2593, type: 3}
+  reloadClip: {fileID: 8300000, guid: a7cb38d102114184cad4492505aba0bf, type: 3}
+  emptyClip: {fileID: 0}

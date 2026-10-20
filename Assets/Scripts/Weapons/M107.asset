@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aed27a685d3ef488dd9d7d18db3140, type: 3}
+  m_Name: M107
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponId: weapon_5
+  weaponName: M107
+  icon: {fileID: 21300000, guid: e16506e368db9a843a2c711d478744a1, type: 3}
+  weaponModelPrefab: {fileID: 6541959380848916683, guid: bd44b8a0e6da9f14381a8a91303c7b2e, type: 3}
+  unlockedByDefault: 0
+  buyCost: 900
+  animatorOverride: {fileID: 22100000, guid: 0a18421dc3792214092f09e1695e1fac, type: 2}
+  fireMode: 1
+  shootType: 0
+  damage: 65
+  fireRate: 0.75
+  range: 140
+  baseDamageUpgradeCost: 180
+  damageUpgradeCostStep: 150
+  maxDamageLevel: 5
+  damagePerLevel: 10
+  baseMagazineUpgradeCost: 160
+  magazineUpgradeCostStep: 140
+  maxMagazineLevel: 3
+  magazinePerLevel: 2
+  baseFireRateUpgradeCost: 180
+  fireRateUpgradeCostStep: 150
+  maxFireRateLevel: 4
+  fireRatePerLevel: 0.08
+  baseReloadUpgradeCost: 170
+  reloadUpgradeCostStep: 170
+  maxReloadLevel: 5
+  reloadReductionPerLevel: 0.2
+  minReloadTime: 0.08
+  pellets: 1
+  spreadAngle: 0
+  magazineSize: 10
+  reloadTime: 3
+  tracerPrefab: {fileID: 4205123847585212397, guid: 6fa94fcea20732249b992d49b4d4d6d5, type: 3}
+  tracerLifeTime: 0.07
+  muzzleFlashPrefab: {fileID: 0}
+  shootClip: {fileID: 0}
+  reloadClip: {fileID: 0}
+  emptyClip: {fileID: 0}

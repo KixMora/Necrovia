@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aed27a685d3ef488dd9d7d18db3140, type: 3}
+  m_Name: M249
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponId: weapon_6
+  weaponName: M249
+  icon: {fileID: 21300000, guid: 63fb6e2f1ac8b2a4f97ac4a0081454a4, type: 3}
+  weaponModelPrefab: {fileID: 685520037509978051, guid: 0e09ff7785c9f5d44916fc9c7f1ad375, type: 3}
+  unlockedByDefault: 0
+  buyCost: 750
+  animatorOverride: {fileID: 22100000, guid: 0a18421dc3792214092f09e1695e1fac, type: 2}
+  fireMode: 1
+  shootType: 0
+  damage: 7
+  fireRate: 12
+  range: 80
+  baseDamageUpgradeCost: 120
+  damageUpgradeCostStep: 110
+  maxDamageLevel: 5
+  damagePerLevel: 10
+  baseMagazineUpgradeCost: 120
+  magazineUpgradeCostStep: 110
+  maxMagazineLevel: 5
+  magazinePerLevel: 10
+  baseFireRateUpgradeCost: 130
+  fireRateUpgradeCostStep: 120
+  maxFireRateLevel: 5
+  fireRatePerLevel: 0.7
+  baseReloadUpgradeCost: 130
+  reloadUpgradeCostStep: 120
+  maxReloadLevel: 5
+  reloadReductionPerLevel: 0.22
+  minReloadTime: 2
+  pellets: 1
+  spreadAngle: 0
+  magazineSize: 80
+  reloadTime: 3.2
+  tracerPrefab: {fileID: 4205123847585212397, guid: 6fa94fcea20732249b992d49b4d4d6d5, type: 3}
+  tracerLifeTime: 0.07
+  muzzleFlashPrefab: {fileID: 0}
+  shootClip: {fileID: 0}
+  reloadClip: {fileID: 0}
+  emptyClip: {fileID: 0}

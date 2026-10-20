@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: LocalizationTable Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: LocalizationTable
+  m_TableCollectionNameGuidString: b8fecf91a1a3b144aa4b6d2eff5c61c2
+  m_Entries:
+  - m_Id: 120249638912
+    m_Key: PLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218199220224
+    m_Key: MENU_SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52446243053568
+    m_Key: MENU_EXIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2146202450649088
+    m_Key: SETTINGS_VALUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2146332390187008
+    m_Key: SETTINGS_MUSIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2146386492514304
+    m_Key: SETTINGS_EFFECTS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2146532848558080
+    m_Key: BACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2149541024358400
+    m_Key: SETTINGS_LANG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2149983787671552
+    m_Key: SETTINGS_RU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2150046018560000
+    m_Key: SETTINGS_ENG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10445984901251072
+    m_Key: CONTINUE_GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10446169127665664
+    m_Key: RETRY_MISSION
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10446296642895872
+    m_Key: BACK_TO_MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13472036770693120
+    m_Key: BTN_UPDATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13472162939551744
+    m_Key: TITLE_UPDATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13661800555757568
+    m_Key: TITLE_SHOP
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1911825540441440527
+  references:
+    version: 2
+    RefIds:
+    - rid: 1911825540441440527
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1775753922042
